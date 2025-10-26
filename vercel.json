@@ -1,0 +1,19 @@
+{
+  "version": 2,
+  "name": "biobrain-ai",
+  "builds": [
+    {
+      "src": "index.html",
+      "use": "@vercel/static"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "/$1"
+    }
+  ],
+  "env": {
+    "VITE_OPENROUTER_API_KEY": "@openrouter_api_key"
+  }
+}

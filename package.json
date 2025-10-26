@@ -1,0 +1,25 @@
+{
+  "name": "biobrain-ai",
+  "version": "1.0.0",
+  "description": "BioBrain AI - Intelligent Biology Tutor for Class 11 Students",
+  "main": "index.html",
+  "scripts": {
+    "start": "python -m http.server 8000",
+    "dev": "npx http-server -p 8000 -o"
+  },
+  "keywords": [
+    "biology",
+    "education",
+    "ai",
+    "tutor",
+    "class-11",
+    "mobile",
+    "student"
+  ],
+  "author": "BioBrain Team",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/biobrain.git"
+  }
+}
